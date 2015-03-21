@@ -1,0 +1,1 @@
+curl -X POST -H 'Content-Type: application/gpx+xml' -H 'Accept: application/json' --data-binary @ride.gpx "http://test.roadmatching.com/rest/mapmatch/?app_id=4b9817a8&app_key=01c8413cd0c6fead413fd9bf34410f2d&output.linkGeometries=true&output.osmProjection=false&output.groupByWays=true&output.linkMatchingError=true&output.waypoints=false" -o output.json

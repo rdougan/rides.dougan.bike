@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "AvenirNext-DemiBold", "Segoe UI";
+}
+
+header {
+	height: 80px;
+	width: 100%;
+	text-align: right;
+}
+
+header .logo {
+	float: left;
+	width: 270px;
+	height: 80px;
+	background-image: url(../images/dougiionducati.png);
+	background-size: auto 35px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+header div {
+	margin-right: 10px;
+	text-transform: uppercase;
+}
+
+header .date {
+	padding-top: 16px;
+	font-size: 20px;
+}
+
+header .distance {
+	color: #999;
+	padding-left: 10px;
+}
+
+header .locations {
+	font-family: "Avenir-Book", "Segoe UI";
+	font-size: 13px;
+	color: #999;
+	border-top: 1px solid #ddd;
+	padding-top: 4px;
+	float: right;
+}
+
+.container {
+	position: absolute;
+	top: 80px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.container > * {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
